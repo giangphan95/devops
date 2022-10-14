@@ -1,9 +1,8 @@
 Host *
-User devops
+User ubuntu
 IdentityFile /home/giangphan/devops/vagrant/devops.pem
-Host web01
-HostName 192.168.33.11
-Host web02
-HostName 192.168.33.12
-Host db01
-Hostname 192.168.33.13
+Host web-za-01
+HostName 54.254.2.195
+Host web-zb-01
+HostName 54.169.154.218
+

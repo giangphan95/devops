@@ -10,6 +10,12 @@
         name: docker.io
         state: latest
         update_cache: yes
+      
+    - name: Add user to docker group
+      user:
+        name: "{{ docker_user }}"
+        groups: "docker"
+        append: yes
     
     - name: Set hostname
       hostname:

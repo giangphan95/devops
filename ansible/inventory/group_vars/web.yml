@@ -1,6 +1,9 @@
 ---
 wordpress_volume_name: wordpress
-mysql_host: 192.168.33.13:3306
-mysql_user: wordpress
-mysql_db_name: wordpress
-mysql_password: "123"
+
+mysql_host: testing-mysql.cm63a4lvowjp.ap-southeast-1.rds.amazonaws.com:3306
+mysql_user: wp
+mysql_db_name: wp
+mysql_password: "Giangboz1"
+
+docker_user: "ubuntu"
